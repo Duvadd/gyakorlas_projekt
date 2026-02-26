@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let szam = prompt("kérlek adj meg egy pozitiv szamot!")
+        let osszeg = 0;
+        let folytasd = true
+    while (folytasd){
+        if (szam > 0) {
+            for (let i = 0; i < Number.length; i++);
+            {
+                osszeg += parseInt(szam[i])
+            }
+        }
+        else {
+            console.log("csak pozitiv egész szamot adj meg" )
+            szam = prompt("csak pozitiv szamot adj meg, kérlek adj egy pozitiv szamot")
+        }
+    }    
+        console.log(osszeg)
+        
+
+    </script>
+</body>
+</html>
